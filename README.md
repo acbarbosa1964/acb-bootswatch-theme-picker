@@ -4,7 +4,7 @@ Bootswach is a awesome set of free themes created using CSS.
 
 The Bootswatch Theme Picker for Brackets integrates Bootswach with your Bootstrap code easealy.
 
-![Screenshot](https://)
+![Screenshot](https://github.com/acbarbosa1964/acb-bootswatch-theme-picker/blob/master/images/example.gif?raw=true)
 
 ## How to Install
 ---
