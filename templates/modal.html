@@ -1,0 +1,42 @@
+
+<div class="acb_theme modal">
+	<div class="modal-header">
+		<h1 class="dialog-title">Bootswatch Theme Picker</h1>
+		<button class="dialog-button btn primary close-button" data-button-id="ok">X</button>
+	</div>
+	<div class="modal-body">
+		<div>
+			<span class="grid-left">Theme</span>
+			<select class="theme-box" data-bind="value: theme, click: onPreview">
+			</select>
+		</div>
+
+		<div>
+			<span class="grid-left">Name</span>
+			<input class="name" data-bind="value: name, click: select" readonly="readonly" />
+		</div>
+		<div>
+			<span class="grid-left">Description</span>
+			<input class="description" data-bind="value: description, click: select" readonly="readonly" />
+		</div>
+		<div>
+			<span class="grid-left">Url</span>
+			<input class="bootsurl" data-bind="value: bootsurl, click: select" readonly="readonly" />
+		</div>
+
+		<div class="preview-box">
+			<img class="placeholder-preview" src="" />
+			<!--
+			<div class="info hdd"><span class="name" data-bind="text: name, click: select"></span></div>
+			-->
+		</div>
+
+	</div>
+	<div class="modal-footer">
+		<button class="dialog-button btn btn-insert" data-bind="click: onUrlInsert">Use this Theme</button>
+		<!-- button class="dialog-button btn btn-update" data-bind="click: onPreview">Update Preview</button -->
+	</div>
+	<p class="text-center">
+		All themes and images from <a href="https://bootswatch.com/">Bootswatch</a>
+	</p>
+</div>

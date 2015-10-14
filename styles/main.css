@@ -1,0 +1,142 @@
+/*
+ * The MIT License (MIT)
+ * Copyright (c) 2015 Antonio Carlos Barbosa. All rights reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Kaushan+Script);
+
+#theme_icon {
+	content: "";
+	cursor: pointer;
+	background: url("../images/icon.ico");
+}
+
+.acb_theme select.theme {
+	width: 280px;
+}
+
+
+.acb_theme .modal-body {
+	position: relative;
+	margin-top: 25px;
+	margin-left: 10px;
+	height: 210px;
+	overflow: hidden;
+}
+
+.acb_theme input.size {
+	width: 220px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	color: rgb(85, 85, 85);
+	padding: 4px 6px;
+	border-radius: 4px;
+	border: 1px solid rgb(178, 181, 181);
+}
+
+.acb_theme .btn-update {
+	display: none;
+}
+
+.acb_theme .btn-insert {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.acb_theme input.bootsurl {
+	width: 220px;
+	margin-bottom: 5px;
+	color: rgb(85, 85, 85);
+	padding: 4px 6px;
+	border-radius: 4px;
+	border: 1px solid rgb(178, 181, 181);
+	cursor: pointer;
+}
+
+.acb_theme input.name {
+	width: 220px;
+	margin-bottom: 5px;
+	color: rgb(85, 85, 85);
+	padding: 4px 6px;
+	border-radius: 4px;
+	border: 1px solid rgb(178, 181, 181);
+	cursor: pointer;
+}
+
+.acb_theme input.description {
+	width: 220px;
+	margin-bottom: 5px;
+	color: rgb(85, 85, 85);
+	padding: 4px 6px;
+	border-radius: 4px;
+	border: 1px solid rgb(178, 181, 181);
+	cursor: pointer;
+}
+
+.acb_theme .grid-left {
+	width: 65px;
+	display: inline-block;
+}
+
+.acb_theme .preview-box {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+	width: 200px;
+	height: 140px;
+	overflow: hidden;
+	border: 15px solid #fff;
+	background-color: white;
+	border-bottom: 15px solid #fff;
+	box-shadow: 3px 3px 3px #777;
+}
+
+.acb_theme .preview-box > img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+	box-shadow: 3px 3px 3px #777;
+	width: 100%;
+}
+
+.acb_theme .info {
+	text-align: center;
+	width: 150px;
+	padding-top: 12px;
+	bottom: 0px;
+	background-color: white;
+	font: 400 14px/1 'Kaushan Script', cursive;
+	color: #888;
+}
+
+.acb_theme .dialog-button {
+	cursor: pointer;
+}
+
+.acb_theme .close-button {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}

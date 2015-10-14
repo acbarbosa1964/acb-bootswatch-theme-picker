@@ -17,7 +17,7 @@ The Bootswatch Theme Picker for Brackets integrates Bootswach with your Bootstra
 #### Extension Manager
 
 1. Under main menu select **File > Extension Manager...**
-2. Search for "ACB Bootswatch Themes Picker"
+2. Search for "ACB Bootswatch Theme Picker"
 3. Click "Install"
 
 ## How to use
