@@ -23,7 +23,7 @@ The Bootswatch Theme Picker for Brackets integrates Bootswach with your Bootstra
 ## How to use
 ---
 
-1. Your cursor must be inside <head> </head> tags to insert the resulting Bootswach CDN for the choosen theme;
+1. Your cursor must be inside ```<head> </head>``` tags to insert the resulting Bootswach CDN for the choosen theme;
 2. Open Themes Dialog using the icon in right-hand column (quick launchpad);
 3. Select a theme to use in your project;
 4. Click the "Use this Theme" Button or simply close the window to cancel;
