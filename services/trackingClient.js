@@ -8,7 +8,7 @@ define(function(require, exports){
     var trackingServiceUrl = 'http://brackets-online.herokuapp.com/',
         // http://brackets-online.herokuapp.com/ is an address of default tracking service
         // Change it if you use self-hosting instance of online tracking service
-        appToken = '',
+        appToken = '5620f3e4e59615263f000005',
         // read https://github.com/dnbard/brackets-extension-rating/wiki/Online-and-max-users-counters-in-this-extension
         // to learn on how to obtain an application token for your extension
         mins60 = 60 * 60 * 1000,
